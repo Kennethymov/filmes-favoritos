@@ -1,0 +1,27 @@
+:root {
+  --blue: #6FAACC;
+  --blue-hover: #64A4CC;
+  --dark-blue: #1E3F62;
+  --orange: #F67C5C;
+  --white: #FFFFFF;
+  --black: #333333;
+  --light-gray: #B4C4D2;
+  --light-blue: #DFF3FF;
+  --gray: #7A7A7A;
+  --white-shade: #F9F9FB;
+
+  --font-size-xg: 48px;
+  --font-size-lg: 36px;
+  --font-size-md: 24px;
+  --font-size-sm: 16px;
+  --font-size-xs: 14px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+}

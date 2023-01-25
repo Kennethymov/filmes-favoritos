@@ -1,0 +1,17 @@
+.header_container {
+display: flex;
+flex-direction: column;
+align-items: center;
+border-bottom:  rgb(221, 221, 228);;
+}
+
+.header_container h1 {
+  color: rgb(23, 41, 56);
+  font-size: xx-large;
+}
+
+.header_search {
+  color: rgb(46, 28, 6);
+  justify-content: space-around;
+  font-size: large;
+}
