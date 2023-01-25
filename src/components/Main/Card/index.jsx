@@ -6,9 +6,9 @@ export default function Card() {
   const { films } = useFilmContext();
 
   return (
-    films.map((film, index) => {
+    films.map((film) => {
       return (
-        <div key={index} className={style.card}>
+        <div key={film.id} className={style.card}>
           <img src={film.image} alt={`imagem ${film.title}`} />
           <h3>{film.title}</h3>
           <h4>{`Ano de lançamento: ${film.release_year}`}</h4>

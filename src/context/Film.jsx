@@ -1,6 +1,5 @@
-import { createContext, useEffect, useMemo, useState } from "react";
-import { filmsMock } from "../MockFilms/films.mock";
-import { filterCountry, filterName, filterYear } from "../utils/filter";
+import { createContext, useCallback, useEffect, useMemo, useState } from "react";
+import { filmsMock } from "../mockFilms/films.mock";
 
 const FilmContext = createContext({});
 
@@ -8,30 +7,32 @@ const FilmProvider = ({ children }) => {
 
 
   const [films, setFilms] = useState([]);
-  const [filter, setFilter] = useState("year");
 
   useEffect(() => {
     setFilms(filmsMock);
   }, [])
 
-  useEffect(() => {
-    if (filter === 'year') {
-      setFilms(filterYear(filmsMock));
-      console.log("alterado ano");
+  const applyFilter = useCallback((filter) => {
+    const nl = Array.from(films);
+    switch (filter) {
+      case "year":
+        nl.sort((a, b) => a.release_year - b.release_year)
+        setFilms(nl);
+        break;
+      case "name":
+        nl.sort((a, b) => a.title.localeCompare(b.title))
+        setFilms(nl);
+        break;
+      case "country":
+        nl.sort((a, b) => a.country.localeCompare(b.country))
+        setFilms(nl);
+        break;
+      default:
+        break;
     }
-    if (filter === 'name') {
-      setFilms(filterName(filmsMock));
-      console.log("alterado nome");
+  }, [films])
 
-    }
-    if (filter === 'country') {
-      setFilms(filterCountry(filmsMock));
-      console.log("alterado país");
-
-    }
-  }, [filter])
-
-  const getFilmContextValues = useMemo(() => ({films, filter, setFilms, setFilter}), [films, filter]);
+  const getFilmContextValues = useMemo(() => ({films, setFilms, applyFilter}), [films, applyFilter]);
 
   return (
     <FilmContext.Provider value={ getFilmContextValues } >
