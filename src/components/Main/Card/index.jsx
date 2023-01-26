@@ -1,9 +1,10 @@
-import { useFilmContext } from "../../../context/hooks"
-import style from "../../../styles/card.module.css"
+/* eslint-disable require-jsdoc */
+import {useFilmContext} from "../../../context/hooks";
+import style from "../../../styles/card.module.css";
 
 
 export default function Card() {
-  const { films } = useFilmContext();
+  const {films} = useFilmContext();
 
   return (
     films.map((film) => {
@@ -14,7 +15,8 @@ export default function Card() {
           <h4>{`Ano de lançamento: ${film.release_year}`}</h4>
           <h5>{`País: ${film.country}`}</h5>
         </div>
-    )})
-    
-  )
+      );
+    })
+
+  );
 }

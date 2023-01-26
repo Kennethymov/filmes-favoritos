@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable require-jsdoc */
 import Header from "./components/Header";
 import Main from "./components/Main";
 

@@ -5,7 +5,7 @@ export const filmsMock = [
     director: "Chris Columbus",
     country: "Inglaterra",
     release_year: 2001,
-    image: "/images/hp1.jpeg"
+    image: "/images/hp1.jpeg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const filmsMock = [
     director: "Chris Columbus",
     country: "Inglaterra",
     release_year: 2002,
-    image: "/images/hp2.jpeg"
+    image: "/images/hp2.jpeg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const filmsMock = [
     director: "Alfonso Cuarón",
     country: "Inglaterra",
     release_year: 2004,
-    image: "/images/hp3.jpeg"
+    image: "/images/hp3.jpeg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const filmsMock = [
     director: "Mike Newell",
     country: "Inglaterra",
     release_year: 2005,
-    image: "/images/hp4.jpeg"
+    image: "/images/hp4.jpeg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const filmsMock = [
     director: "David Yates",
     country: "Inglaterra",
     release_year: 2007,
-    image: "/images/hp5.jpeg"
+    image: "/images/hp5.jpeg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const filmsMock = [
     director: "David Yates",
     country: "Inglaterra",
     release_year: 2009,
-    image: "/images/hp6.jpeg"
+    image: "/images/hp6.jpeg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const filmsMock = [
     director: "David Yates",
     country: "Inglaterra",
     release_year: 2010,
-    image: "/images/hp7-1.jpeg"
+    image: "/images/hp7-1.jpeg",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const filmsMock = [
     director: "David Yates",
     country: "Inglaterra",
     release_year: 2011,
-    image: "/images/hp7-2.jpeg"
+    image: "/images/hp7-2.jpeg",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const filmsMock = [
     director: "Jon Favreau",
     country: "Estados Unidos",
     release_year: 2008,
-    image: "/images/marvel1.webp"
+    image: "/images/marvel1.webp",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const filmsMock = [
     director: "Louis Leterrier",
     country: "Estados Unidos",
     release_year: 2008,
-    image: "/images/marvel2.webp"
+    image: "/images/marvel2.webp",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const filmsMock = [
     director: "John Favreau",
     country: "Estados Unidos",
     release_year: 2010,
-    image: "/images/marvel3.webp"
+    image: "/images/marvel3.webp",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const filmsMock = [
     director: "Kenneth Branagh",
     country: "Estados Unidos",
     release_year: 2011,
-    image: "/images/marvel4.webp"
+    image: "/images/marvel4.webp",
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const filmsMock = [
     director: "Joe Johnston",
     country: "Estados Unidos",
     release_year: 2011,
-    image: "/images/marvel5.webp"
+    image: "/images/marvel5.webp",
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const filmsMock = [
     director: "Joss Whedon",
     country: "Estados Unidos",
     release_year: 2012,
-    image: "/images/marvel6.webp"
+    image: "/images/marvel6.webp",
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const filmsMock = [
     director: "Shane Black",
     country: "Estados Unidos",
     release_year: 2013,
-    image: "/images/marvel7.webp"
+    image: "/images/marvel7.webp",
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const filmsMock = [
     director: "Alan Taylor",
     country: "Estados Unidos",
     release_year: 2013,
-    image: "/images/marvel8.webp"
+    image: "/images/marvel8.webp",
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const filmsMock = [
     director: "Anthony e Joe Russo",
     country: "Estados Unidos",
     release_year: 2014,
-    image: "/images/marvel9.webp"
+    image: "/images/marvel9.webp",
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const filmsMock = [
     director: "James Gunn",
     country: "Estados Unidos",
     release_year: 2014,
-    image: "/images/marvel10.webp"
+    image: "/images/marvel10.webp",
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const filmsMock = [
     director: "Joss Whedon",
     country: "Estados Unidos",
     release_year: 2015,
-    image: "/images/marvel11.webp"
+    image: "/images/marvel11.webp",
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ export const filmsMock = [
     director: "Peyton Reed ",
     country: "Estados Unidos",
     release_year: 2015,
-    image: "/images/marvel12.webp"
+    image: "/images/marvel12.webp",
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ export const filmsMock = [
     director: "Anthony e Joe Russo",
     country: "Estados Unidos",
     release_year: 2016,
-    image: "/images/marvel13.webp"
+    image: "/images/marvel13.webp",
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ export const filmsMock = [
     director: "Scott Derrickson",
     country: "Estados Unidos",
     release_year: 2016,
-    image: "/images/marvel14.jpg-large"
+    image: "/images/marvel14.jpg-large",
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ export const filmsMock = [
     director: "James Gunn",
     country: "Estados Unidos",
     release_year: 2017,
-    image: "/images/marvel15.webp"
+    image: "/images/marvel15.webp",
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ export const filmsMock = [
     director: "John Watts",
     country: "Estados Unidos",
     release_year: 2017,
-    image: "/images/marvel16.webp"
+    image: "/images/marvel16.webp",
   },
   {
     id: 25,
@@ -197,15 +197,15 @@ export const filmsMock = [
     director: "Taika Waititi",
     country: "Estados Unidos",
     release_year: 2017,
-    image: "/images/marvel17.webp"
+    image: "/images/marvel17.webp",
   },
   {
     id: 26,
     title: "Pantera negra",
-    director: "	Ryan Coogler",
+    director: "Ryan Coogler",
     country: "Estados Unidos",
     release_year: 2018,
-    image: "/images/marvel18.webp"
+    image: "/images/marvel18.webp",
   },
   {
     id: 27,
@@ -213,7 +213,7 @@ export const filmsMock = [
     director: "Anthony e Joe Russo",
     country: "Estados Unidos",
     release_year: 2018,
-    image: "/images/marvel19.webp"
+    image: "/images/marvel19.webp",
   },
   {
     id: 28,
@@ -221,7 +221,7 @@ export const filmsMock = [
     director: "Peyton Reed",
     country: "Estados Unidos",
     release_year: 2018,
-    image: "/images/marvel20.webp"
+    image: "/images/marvel20.webp",
   },
   {
     id: 29,
@@ -229,7 +229,7 @@ export const filmsMock = [
     director: "Anna Boden e Ryan Fleck",
     country: "Estados Unidos",
     release_year: 2019,
-    image: "/images/marvel21.webp"
+    image: "/images/marvel21.webp",
   },
   {
     id: 30,
@@ -237,7 +237,7 @@ export const filmsMock = [
     director: "Anthony e Joe Russo",
     country: "Estados Unidos",
     release_year: 2019,
-    image: "/images/marvel22.webp"
+    image: "/images/marvel22.webp",
   },
   {
     id: 31,
@@ -245,6 +245,6 @@ export const filmsMock = [
     director: "John Watts",
     country: "Brasil",
     release_year: 2019,
-    image: "/images/marvel23.jpeg"
-  }
-]
+    image: "/images/marvel23.jpeg",
+  },
+];

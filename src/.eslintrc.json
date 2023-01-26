@@ -6,10 +6,10 @@
   },
   "extends": [
     "eslint:recommended",
-    "google",
+    "google"
   ],
   "rules": {
-    "quotes": ["error", "double"],
+    "quotes": ["error", "double"]
   },
   "parserOptions": {
     "ecmaFeatures": {
